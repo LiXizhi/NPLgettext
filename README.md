@@ -57,7 +57,7 @@ see x-lua.c
 3. run Poedit and add parser rules with *.lua;*.html;*.xml;
 
 ### Build
-1. install cygwin and packages like gcc, make, autoconf
+1. install cygwin and packages: `gcc`, make, autoconf, `libiconv`
 2. replace x-lua.c with the new one. 
 3. build gettext with cygwin.
 4. deploy xgettext.exe to poedit/GettextTools/bin/ folder. 
