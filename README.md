@@ -1,13 +1,13 @@
----++ xgettext 
+### xgettext 
 author: LiXizhi
 date:2014.11.23
 
--- Source Code
+### Source Code
 xgettext is a cool tool for automatically extracting text from source code. 
 I modified the source code of gettext to make it support embedded code in MCML .
 
 see x-lua.c
-<verbatim>
+```c
 		case '%':
 		{
 			{
@@ -49,17 +49,17 @@ see x-lua.c
 			else
 				phase1_ungetc(ahead_c);
 		}
-</verbatim>
+```
 
----++ Install 
+### Install 
 1. install CYGWin or copy its dll. 
 2. copy all xgettext.exe files to Poedit/GettextTools/bin/ folder (replace old file)
 3. run Poedit and add parser rules with *.lua;*.html;*.xml;
 
----++ Build
-1. install cygwin
+### Build
+1. install cygwin and packages like gcc, make, autoconf
 2. replace x-lua.c with the new one. 
-3. build gettext with cygwin
+3. build gettext with cygwin.
 4. deploy xgettext.exe to poedit/GettextTools/bin/ folder. 
 
 
