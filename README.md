@@ -58,8 +58,8 @@ see x-lua.c
 
 ### Build
 1. install cygwin and packages: `gcc`, make, autoconf, `libiconv`
-2. replace x-lua.c with the new one. 
+2. download gettext src (from cygwin) and replace x-lua.c with the new one. 
 3. build gettext with cygwin.
-4. deploy xgettext.exe to poedit/GettextTools/bin/ folder. 
+4. deploy xgettext.exe (and dlls) to poedit/GettextTools/bin/ folder. 
 
 
